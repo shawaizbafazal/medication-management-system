@@ -1,33 +1,70 @@
-# medication-management-system
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-**
-#The medication management system is designed to assist elderly individuals, like Sunita Sharma, in managing their medications effectively and improving their overall well-being. The system utilizes technology to provide guidance, support, and solutions related to medication adherence.
+## Available Scripts
 
-Key Features:
+In the project directory, you can run:
 
-Mobile Application: The system includes a user-friendly mobile application that can be installed on Sunita's smartphone. It allows her to input her medication details, including name, dosage, frequency, and timing.
+### `npm start`
 
-Medication Reminders: The mobile app sends reminders to Sunita's smartphone at the scheduled medication times, ensuring she remembers to take her medications as prescribed.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Medication Tracker: Sunita can mark her medications as taken within the app, enabling her to track her medication adherence and have a sense of accomplishment.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Smart Pill Dispenser: The system integrates with a smart pill dispenser that holds Sunita's medications. The dispenser is programmable to release the appropriate medications at the scheduled times, eliminating the need for manual sorting or measuring.
+### `npm test`
 
-Caregiver Involvement: Sunita can designate a caregiver or family member who receives alerts and notifications regarding her medication adherence. This allows her caregiver to actively participate in her healthcare and provide support when needed.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-How it Works:
+### `npm run build`
 
-Sunita logs in to the system using her credentials or skips the login and directly accesses the home page.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-On the home page, Sunita sees the system title, a logout button, and various components, including the medication form, reminders, medication tracker, and caregiver alerts.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Sunita uses the medication form to enter her medication details, such as name, dosage, frequency, and timing.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-The system sends reminders to Sunita's smartphone at the scheduled medication times, ensuring she takes her medications on time.
+### `npm run eject`
 
-Sunita can mark her medications as taken within the app, keeping track of her medication adherence.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If Sunita designates a caregiver, they receive alerts and notifications regarding her medication adherence. This allows them to provide support or take necessary actions in case of missed doses or irregularities.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-The goal of this project is to improve medication adherence among elderly individuals and provide them with a user-friendly and supportive system for managing their medications effectively. By using technology, the system aims to enhance the overall health and well-being of individuals like Sunita Sharma.**
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
